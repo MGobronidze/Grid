@@ -1,0 +1,118 @@
+budy{
+    font-family: Poppins;
+}
+.navigation-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.ul-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 416px;
+    justify-content: space-between;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: 200px;
+}
+.log-in{
+    height: 36px;
+    width: 86px;
+    color: #556987;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+}
+.sign-up{
+    height: 36px;
+    width: 86px;
+    border-radius: 6px;
+    padding: 8px 16px 8px 16px;
+    background-color: #22C55E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #F0FDF4;
+    cursor: pointer;
+    border: none;
+}
+.li-element{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #556987;
+}
+/* styling section 1 */
+.section-1{
+    background-image: url(../images/Radial.png);
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 100px 150px;
+    height: 568px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+.section-1-h{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: white;
+    text-align: center;
+    margin-top: 134px;
+}
+
+.section-1-p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #010205;
+    text-align: center;
+}
+.get-in-touch{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+.enter-email{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085; 
+    padding-left: 16px;
+    border-radius: 8px;
+}
+.get-access{
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: #22C55E;
+    color: #F0FDF4;
+    border-radius: 8px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
